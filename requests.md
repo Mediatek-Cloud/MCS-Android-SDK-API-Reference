@@ -4,7 +4,7 @@ This session demonstrate how to interact with MCS API Server.
 
 ## Send a Request
 
-If you are familiar with [Volley](https://android.googlesource.com/platform/frameworks/volley/), the open source network request library created by Google, hooray! It's almost the same to manipulate MCS SDK. 
+If you are familiar with [Volley][volley], the open source network request library created by Google, hooray! It's almost the same to manipulate MCS SDK. 
 
 ```java
 // Default method is GET 
@@ -93,7 +93,7 @@ new McsResponse.ErrorListener() {
 
 Every success response of `McsJsonRequest` is of type `JSONObject`. We have provided a set of entities to simplify the serialization and deserialization of these network requests.
 
-With [Gson](https://github.com/google/gson), you can get the object by specifing the correct class: 
+With [Gson][gson], you can get the object by specifing the correct class: 
 
 ```java
 DeviceSummaryEntity[] summary = new Gson().fromJson(
@@ -101,3 +101,8 @@ DeviceSummaryEntity[] summary = new Gson().fromJson(
 ```
 
 Check [Entities - Mcs Android Guide](entities.md) for detailed explaination.
+
+
+
+[volley]: https://android.googlesource.com/platform/frameworks/volley/
+[gson]: https://github.com/google/gson

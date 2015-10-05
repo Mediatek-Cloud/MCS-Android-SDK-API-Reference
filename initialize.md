@@ -3,10 +3,10 @@
 To setup SDK, we asked you to initialize the MCS SDK like this:
 
 ```java
-Mcs.initialize(this, "YOUR_APP_KEY", "YOUR_APP_SECRET");
+Mcs.initialize(this, "YOUR_CLIENT_ID");
 ```
 
-Upon [API references of MCS API server](https://mcs.mediatek.com/resources/latest/api_references/), we need `appKey` and `appSecret` to request user's token. Without correct info, you will not be able to sign in.
+Upon [API references of MCS API server][mcs-api], we need `ClientId` to request user's token. Without correct info, you will not be able to sign in.
 
 
 ## Debug Information
@@ -17,7 +17,7 @@ You could specify it when initialize
 
 ```java
 // default is true, if not specified.
-Mcs.initialize(this, "YOUR_APP_KEY", "YOUR_APP_SECRET", true);
+Mcs.initialize(this, "YOUR_CLIENT_ID", true);
 ```
 
 or do it later:
@@ -28,5 +28,10 @@ or do it later:
 Mcs.setDebuggable(BuildConfig.DEBUG);
 ```
 
+## Push Notification [Optional]
+
+If you want to enable the feature to send push notification to the registered mobile, please check [Get Push Notification - MCS SDK Android Tutorial Doc][sdk-tutorial-push] for detailed information.
 
 
+[mcs-api]: https://mcs.mediatek.com/resources/latest/api_references/
+[sdk-tutorial-push]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-tutorial-doc/content/get_push_notification.html

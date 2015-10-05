@@ -1,8 +1,8 @@
 # Push Notifications
 
-`McsPushInstallation` wraps [Google Cloud Messaging](https://developers.google.com/cloud-messaging/) to enable you to send push notifications to users' mobile devices.
+`McsPushInstallation` wraps [Google Cloud Messaging][gcm] to enable you to send push notifications to users' mobile devices.
 
-If you have not installed the SDK, or you just want to make sure whether the setup is correct, check [Get Push Notification - MCS Android Tutorial Doc](https://mtk-mcs.gitbooks.io/mcs-sdk-android-tutorial-doc/content/get_push_notification.html).
+If you have not installed the SDK, or you just want to make sure whether the setup is correct, check [Get Push Notification - MCS Android Tutorial Doc][sdk-tutorial-notif].
 
 ## Customization
 
@@ -47,3 +47,8 @@ In your `AndroidManifest.xml`, put the code below inside the `<application>` tag
         android:resource="@mipmap/ic_launcher"
         />
 ```
+
+
+
+[gcm]: https://developers.google.com/cloud-messaging/
+[sdk-tutorial-notif]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-tutorial-doc/content/get_push_notification.html

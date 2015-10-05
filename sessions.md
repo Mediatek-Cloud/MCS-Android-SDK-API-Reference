@@ -58,7 +58,7 @@ McsSession.getInstance().requestSignOut(
 `McsRequest` automatically handles the trivial token issue for you, so you don't have to worry about access token and refresh token.
 
 After signed in, you can use `McsUser.getInstance().getAccessToken()` to 
-get access token to access the [MCS APIs](https://mcs.mediatek.com/resources/latest/api_references/) from your own third party service. Also, `McsSession.getInstance().getAccessToken()` could get the same access token for your ease of use to reduce the dependency of modules.
+get access token to access the [MCS APIs][mcs-api] from your own third party service. Also, `McsSession.getInstance().getAccessToken()` could get the same access token for your ease of use to reduce the dependency of modules.
 
 
 ## Get User and Mobile Info
@@ -95,3 +95,6 @@ These information will be keep in the internal storage of Android application us
 | -- | -- | -- |
 | mobileId | `String` | The mobileId of this mobile device, provided by MCS API server. This property exists only when you successfully register this mobile by `McsPushInstallation` |
 
+
+
+[mcs-api]: https://mcs.mediatek.com/resources/latest/api_references/
