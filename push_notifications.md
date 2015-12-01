@@ -4,15 +4,26 @@
 
 If you have not installed the SDK, or you just want to make sure whether the setup is correct, check [MCS Android Tutorial Doc - Get Push Notification][sdk-tutorial-notif].
 
+## Requirement
 
+The android device should have google-play-service.
 
+## Mechanism
+
+```java
+McsPushInstallation.getInstance().registerInBackground(
+    "YOUR_GCM_SENDER_ID", "YOUR_GCM_API_KEY"
+);
+```
+
+Inside `registerInBackground()`, we use your `GcmSenderId` and `GcmApiKey` to get a `registrationId` from GCM server. With this `registrationId`, we then register this mobile device to MCS Server. You should be able to see `Register mobile succeeded.` or `Update mobile succeeded.` in logcat.
 
 ## Customization
 
 
 ### Push Callback
 
-In your `Application` class, after you have initialize MCS Android SDK, you could setup the activity to be open when user click on the notificaion.
+In your `Application` class, after you have initialize MCS Android SDK, you could setup the activity to be open when user click on the notification.
 
 ```
 public class YourApplication extends Application {
