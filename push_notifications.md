@@ -6,7 +6,7 @@ If you have not installed the SDK, or you just want to make sure whether the set
 
 ## Requirement
 
-The android device should have google-play-service.
+The android device should have [google-play-services][google-play-services].
 
 ## Mechanism
 
@@ -73,3 +73,4 @@ To remove the compile warning caused by gcm, add the following lines to your pro
 
 [gcm]: https://developers.google.com/cloud-messaging/
 [sdk-tutorial-notif]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-tutorial-doc/content/get_push_notification.html
+[google-play-services]: https://developers.google.com/android/guides/overview
