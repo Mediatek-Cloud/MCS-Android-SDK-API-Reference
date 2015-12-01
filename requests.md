@@ -42,7 +42,7 @@ We use `RequestManager` singleton to send `McsJsonRequest` to MCS API server. To
 | -- | -- | -- |
 | method | Optional, `int` | The method of request. Default is `GET`. |
 | url | Required, `String` | The url of request |
-| headers | Optional, `HashMap<String, String>` | The headers of request. Always default with key `Content-Type: application/json` and `Authorization: Bearer your_access_token`. |
+| headers | Optional, `HashMap<String, String>` | The headers of request. Always default with key `Content-Type: application/json`, `AppId: YOUR_APP_ID` and `AppSecret: YOUR_APP_SECRET`. |
 | body | Optional, `String` | The body of request. |
 | successListener | Required, `McsResponse.SuccessListener` | The handler to define what to do after request succeed. |
 | errorListener | Optional, `McsResponse.ErrorListener` | The handler to define what to do after request failed. Default error message shows in log. |
