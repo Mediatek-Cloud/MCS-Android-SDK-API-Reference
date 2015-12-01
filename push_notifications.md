@@ -48,6 +48,13 @@ In your `AndroidManifest.xml`, put the code below inside the `<application>` tag
         />
 ```
 
+## Proguard
+
+To remove the compile warning caused by gcm, add the following lines to your project’s `proguard.cfg` file:
+
+```
+-dontwarn com.google.android.gms.internal.**
+```
 
 
 [gcm]: https://developers.google.com/cloud-messaging/
