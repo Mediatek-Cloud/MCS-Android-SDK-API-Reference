@@ -55,7 +55,7 @@ McsSession.getInstance().requestSignOut(
 
 ## Get Access Token
 
-`McsRequest` automatically handles the trivial token issue for you, so you don't have to worry about access token and refresh token.
+Basically you do not need to care about the access token, because every request you sent is verified by your `APP_ID` and `APP_SECRET`.
 
 After signed in, you can use `McsUser.getInstance().getAccessToken()` to 
 get access token to access the [MCS APIs][mcs-api] from your own third party service. Also, `McsSession.getInstance().getAccessToken()` could get the same access token for your ease of use to reduce the dependency of modules.
