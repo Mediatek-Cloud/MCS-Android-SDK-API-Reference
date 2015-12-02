@@ -18,6 +18,16 @@ McsPushInstallation.getInstance().registerInBackground(
 
 Inside `registerInBackground()`, we use your `GcmSenderId` and `GcmApiKey` to get a `registrationId` from GCM server. With this `registrationId`, we then register this mobile device to MCS Server. You should be able to see `Register mobile succeeded.` or `Update mobile succeeded.` in logcat.
 
+The parameters of `registerInBackground()` are listed below:
+
+| Parameter | Usage | Description |
+| -- | -- | -- | -- |
+| gcmSenderId | Required, `String` | The sender id of your GCM project. |
+| gcmApiKey | Required, `String` | The api key of your GCM project. |
+| successListener | Optional, `McsResponse.SuccessListener` | The handler to define what to do after registered mobile. |
+| errorListener | Optional, `McsResponse.ErrorListener` | The handler to define what to do after register mobile failed. Default error message shows in log. |
+
+
 ## Customization
 
 
