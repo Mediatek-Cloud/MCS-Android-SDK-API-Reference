@@ -1,4 +1,4 @@
-# Getting Started
+# MCS Android SDK API Reference
 
 Glad you are here to use MCS Android SDK! We supposed you have already followed [the tutorial of MCS Android SDK][sdk-tutorial], and navigate here to see detailed description for each component of SDK.
 
