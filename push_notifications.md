@@ -2,7 +2,7 @@
 
 `McsPushInstallation` wraps [Google Cloud Messaging][gcm] to enable you to send push notifications to users' mobile devices.
 
-If you have not installed the SDK, or you just want to make sure whether the setup is correct, check [MCS Android Tutorial Doc - Get Push Notification][sdk-tutorial-notif].
+If you have not installed the SDK, or you just want to make sure whether the setup is correct, check [Get Push Notification - MCS Android Tutorial][sdk-tutorial-notif].
 
 ## Requirement
 
@@ -82,5 +82,5 @@ To remove the compile warning caused by gcm, add the following lines to your pro
 
 
 [gcm]: https://developers.google.com/cloud-messaging/
-[sdk-tutorial-notif]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-tutorial-doc/content/get_push_notification.html
+[sdk-tutorial-notif]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-tutorial/content/get_push_notification.html
 [google-play-services]: https://developers.google.com/android/guides/overview
