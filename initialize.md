@@ -30,8 +30,8 @@ Mcs.setDebuggable(BuildConfig.DEBUG);
 
 ## Push Notification [Optional]
 
-If you want to enable the feature to send push notification to the registered mobile, please check [Get Push Notification - MCS SDK Android Tutorial Doc][sdk-tutorial-push] for detailed information.
+If you want to enable the feature to send push notification to the registered mobile, please check [Get Push Notification - MCS Android SDK Tutorial][sdk-tutorial-push] for detailed information.
 
 
 [mcs-api]: https://mcs.mediatek.com/resources/latest/api_references/
-[sdk-tutorial-push]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-tutorial-doc/content/get_push_notification.html
+[sdk-tutorial-push]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-tutorial/content/get_push_notification.html
