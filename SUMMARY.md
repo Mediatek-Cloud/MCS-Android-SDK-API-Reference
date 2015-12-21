@@ -1,6 +1,6 @@
 # Summary
 
-* [Getting Started](README.md)
+* [Introduction](README.md)
 * [Initialize](initialize.md)
 * [Sessions](sessions.md)
 * [Requests](requests.md)
