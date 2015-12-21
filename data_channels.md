@@ -45,7 +45,7 @@ Check [Data Points - MCS SDK Android Guide](data_points.md) to know how to put c
 
 [mcs-api]: https://mcs.mediatek.com/resources/latest/api_references/
 [mcs-key-concept]: https://mcs.mediatek.com/resources/latest/key_concept/
-[sdk-tutorial-socket]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-tutorial-doc/content/web_socket.html
-[sdk-tutorial-event]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-tutorial-doc/content/event_emit.html
+[sdk-tutorial-socket]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-tutorial/content/web_socket.html
+[sdk-tutorial-event]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-tutorial/content/event_emit.html
 
 [img-prototype]: https://img.mediatek.com/1500/mtk.linkit/mcs-resources/en/2.8.5/Key_concept/img_keyconcept_01.png
