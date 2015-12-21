@@ -7,4 +7,4 @@ You are welcomed to contact us at <mtkcloudsandbox@mediatek.com> !
 
 
 
-[sdk-tutorial]: https://mtk-mcs.gitbooks.io/mcs-sdk-android-tutorial-doc/content/
+[sdk-tutorial]: https://mtk-mcs.gitbooks.io/mcs-android-sdk-tutorial/content/
